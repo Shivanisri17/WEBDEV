@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  background-image: linear-gradient(to left,rgba(26, 26, 93, 0.385),rgb(135, 120, 120));
+    font-family: sans-serif;
+    outline: none;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.calculator{
+   
+    padding: 15px;
+    border-radius: 68px;
+    background-color: rgb(100, 92, 92);
+    box-shadow: inset 4px 4px 8px #7f7474,
+                      5px 5px 12px rgba(34, 33, 33, 0.559);
+    display: grid;            /* seperated  */
+    grid-template-columns: repeat(4,68px);
+    
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+   
+    box-shadow: inset -4px -4px 8px#7f7474,
+                inset 5px 5px 12px rgba(0,0,0,.16);
+    border: none;
+    border-radius: 30px;
+    color: rgb(89, 83, 83);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+}
+button{
+    height: 48px;
+    width: 48px;
+   
+    box-shadow: -4px -4px 8px#7f7474,
+                  5px 5px 12px rgba(11, 10, 10, 0.16);
+border: none;
+border-radius: 50%;
+margin: 8px;
+font-size: 19px;
+
+}
+button:hover{
+
+background-color: rgba(198, 178, 178, 0.562);
+
+
+}
+.equal{
+    width: 115px;
+    border-radius: 40px;
+    color: rgba(24, 109, 3, 0.851);
+    font-size: x-large;
+    box-shadow: -5px -5px 12px#7f7474
+    ,
+                  5px 5px 12px rgba(4, 4, 4, 0.16);
+   
+}
+.symbol{
+    color: rgba(24, 109, 3, 0.851);
+    font-size: x-large;
+}
+.order{
+    color: rgba(255, 0, 0, 0.858);
+}
