@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  body {
+    height: 100vh;
+    background: linear-gradient(to right, #52d0ec, #71ff61);
+  }
+  html {
+    font-size: 16px;
+  }
+  .wrapper {
+    position: absolute;
+    transform: translate(-40%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  .container {
+    height: 60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vmin;
+  }
+  .button-option {
+    background-image: linear-gradient(to right,white,wheat);
+    height:130px;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10vmin;
+    color:  rgb(146, 128, 17);
+    box-shadow: 0 0 15px rgba(8, 4, 4, 0.1);
+    cursor: pointer;
+  
+  }
+  #restart {
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #49a0da;
+    color: #ffffff;
+    border: none;
+    position: relative;
+    margin: 10px;
+    margin-left: 149px;
+    margin-top: 30px;
+    display: block;
+  }
+  #restart:hover{
+    background-color: yellowgreen;
+    color: rgb(80, 5, 80);
+  }
+  .popup {
+    background: linear-gradient(to left, #52d0ec, #71ff61);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 12vmin;
+  }
+  #new-game {
+    font-size: x-large;
+    padding: 10px;
+    background-color: #1d7131;
+    color: #c4b4b4;
+    border-radius: 9px;
+    border: none;
+    margin-top: -42px;
+  }
+  #new-game:hover{
+    background-color: rgb(146, 128, 17);
+    color: rgb(20, 228, 141);
+  }
+  #message {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1em;
+    animation: animate 8s ease-in-out infinite;
+
+}
+@keyframes animate{
+    0%{
+        color: #616091;
+    }
+    100%{
+        color: rgb(20, 228, 37);
+        text-shadow: 0 0 1px  rgb(20, 228, 82);
+       
+    }
+
+  }
+  .popup.hide {
+    display: none;
+  }
+  
+
+
