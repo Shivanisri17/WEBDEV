@@ -1,0 +1,109 @@
+body
+{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   background-image: linear-gradient(to left, #616091,violet);
+   margin-left: 420px;
+   margin-top: 180px;
+}
+
+h1{
+    color: rgb(228, 37, 152);
+    text-align: center;
+cursor: pointer;
+font-size:40px;
+font-family: sans-serif;
+margin-top: 5px;
+animation: animate 8s ease-in-out infinite;
+
+}
+@keyframes animate{
+    0%{
+        color: #616091;
+    }
+    100%{
+        color: rgb(228, 37, 152);
+       
+    }
+}
+
+
+div{
+    margin: 36px;
+    padding: 8px;
+  background-color: rgb(105, 4, 105);
+  box-shadow: 2px 3px 5px black;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+   
+}
+
+#container{
+    margin: 34px;
+    padding: 24px;
+    color: white;
+   background-color: rgb(90, 4, 90);
+    text-align: center;
+   width: 528px;
+   height:auto;
+  
+   
+}
+#input{
+    color: white;
+    background-color: rgb(12, 2, 39);
+    border: none;
+    border-bottom: 1px solid #616091;
+    border-left: 1px solid #616091;
+    padding: 6px;
+  border-color: violet;
+  width: 242px;
+  height: 30px;
+margin-top: 8px;
+outline: none;
+  
+}
+#btn{
+    border: none;
+    border-radius: 7px;
+    background-color: #b4b3d8;
+    padding: 6px;
+    width: 15%;
+    height: 37px;
+    color: rgb(90, 4, 90);
+    cursor: pointer;
+
+}
+#btn:hover{
+   background-color:violet;
+ color:   rgb(228, 37, 152);
+}
+ul{
+    list-style: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
