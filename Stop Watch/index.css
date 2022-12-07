@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-image: linear-gradient(to right,#33772e, #f9a42e);
+}
+.container{
+    width: 330px;
+    height: 500px;
+    margin-top: 7%;
+    border-radius: 20px;
+    background-color: rgb(94, 121, 6);
+box-shadow: rgba( black);
+}
+.stopwatch{
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+}
+.stopwatch p{
+    font-size: 43px;
+    color: rgb(245, 184, 16);
+    font-family: sans-serif;
+    animation: animate 9s ease-in-out infinite;
+}
+@keyframes animate{
+    0%{
+        color:#0a5205;
+    }
+    100%{
+       color: rgb(245, 184, 16);
+        text-shadow: 0 0 10px  rgb(245, 184, 16),
+       
+    }
+}
+
+#result{
+    margin-top: 15%;
+    margin-left: 20%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #888250;   
+}
+#result span{
+position: relative;
+top: 70px;
+color: #e4bc5c;
+font-size: 45px;
+font-weight: bolder;
+}
+.btns{
+    margin-top: 15%;
+}
+.btns button{
+    padding: 15px;
+    margin: 10px;
+    font-size: medium;
+    border-radius: 50%;
+    outline: none;
+border: none;
+cursor: pointer;
+background-color: orange;
+
+}
+.btns button:hover{
+    background-color: #e4bc5c;
+   }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
